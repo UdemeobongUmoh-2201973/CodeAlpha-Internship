@@ -1,14 +1,19 @@
 """
 Task 1: TEXT-BASED HANGMAN GAME
 Task Description:
-
-This is how I approach it:
-I generate 
+Design a text-based Hangman game. The program
+selects a random word, and the player guesses one
+letter at a time to uncover the word. You can set a
+limit on the number of incorrect guesses allowed.
 
 Features:
-- 7 lives
-- Random word generated from API
-- Difficulty system
+- 3 Levels (Easy, Medium or Hard) to choose from
+- Random word generated based on level
+- Life System based on level chosen
+
+Additional Features:
+- 2 Modes(Classic or Practice) to play
+- API Integration for word-generation
 
 """
 
